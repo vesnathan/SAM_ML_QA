@@ -1,5 +1,5 @@
 # SAM Machine Learning for FTA Question Answer
-This project will infer a correct or incorrect label to a students answer when given that answer, the question, and the document text. The deployment creates a Lambda function which loads a Docker container with Python 3.8 and Pytorch as well as Transformers and other rewuired libraries.  
+This project will infer a correct or incorrect label to a students answer when given that answer, the question, and the document text. The deployment creates a Lambda function which loads a Docker container with Python 3.8 and Pytorch as well as Transformers and other required libraries.  
   
 Currently hard coded for the question id 7b7fd45f-4086-4cfd-adaa-409c1f8e65c1  
   
@@ -39,6 +39,9 @@ sam build
 sam deploy --guided  
 
 # Notes
+  
+* * * NOT CURRENTLY DEPLOYED * * *  
+  
 The API will timeout on the first run and maybe the second as the docker container boots. There are various ways to fix this in Production deployment. 
 
 There are four databases set up for this project, but deployed in the portal project.  
