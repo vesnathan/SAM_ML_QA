@@ -40,7 +40,7 @@ sam deploy --guided
 
 # Notes
   
-* * * NOT CURRENTLY DEPLOYED * * *  
+*** NOT CURRENTLY DEPLOYED ***  
   
 The API will timeout on the first run and maybe the second as the docker container boots. There are various ways to fix this in Production deployment. 
 
